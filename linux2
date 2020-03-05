@@ -1,0 +1,115 @@
+2 directories, 8 files
+MacBook-Pro-de-Nadir:real nadirabdelouahab$ cd ../..
+MacBook-Pro-de-Nadir:shell nadirabdelouahab$ tree
+.
+└── planets
+    ├── fictional
+    │   ├── arrakis.jpeg
+    │   ├── coruscant.jpeg
+    │   └── cybertron.jpeg
+    ├── inhabited
+    │   ├── arrakis.jpeg
+    │   ├── coruscant.jpeg
+    │   ├── cybertron.jpeg
+    │   └── earth.jpeg
+    └── real
+        ├── gas-giant
+        │   ├── jupiter.jpeg
+        │   ├── neptune.jpeg
+        │   ├── saturn.jpeg
+        │   └── uranus.jpeg
+        └── telluric
+            ├── earth.jpeg
+            ├── mars.jpeg
+            ├── mercury.jpeg
+            └── venus.jpeg
+
+
+  225  mkdir quetes
+  226  mkdir shell
+  227  brew install curl unzip
+  228  curl -L -o planets.zip https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip?raw=true
+  229  unzip planets.zip
+  230  mv planets shell
+  231  pwd
+  232  cd planets
+  233  pwd
+  234  cd ~/planets
+  235  cd ~/shell
+  236  cd planets
+  237  pwd
+  238  mkdir real
+  239  mkdir fictional
+  240  mkdir inhabited
+  241  cd real
+  242  mkdir telluric
+  243  mkdir gas-giant
+  244  mkdir dwarf-planet 
+  245  cd ..
+  246  ls -l
+  247  mv earth.jpeg real
+  248  mv jupiter.jpeg real
+  249  mv mars.jpeg real
+  250  mv mercury.jpeg real
+  251  mv neptune.jpeg real
+  252  mv pluto.jpeg real
+  253  mv saturn.jpeg real
+  254  mv uranus.jpeg real
+  255  mv venus.jpeg real
+  256  mv arrakis.jpeg fictional
+  257  mv coruscant.jpeg fictional
+  258  mv cybertron.jpeg fictional
+  259  cd real
+  260  mv earth.jpeg telluric
+  261  mv mars.jpeg telluric
+  262  mv mercure.jpeg telluric
+  263  mv mercury.jpeg telluric
+  264  mv venus.jpeg telluric
+  265  cp earth.jpeg earth2.jpeg
+  266  cp earth.jpeg
+  267  pwd
+  268  mv saturn gas-giant
+  269  ls -l
+  270  mv saturn.jpeg gas-giant
+  271  mv uranus.jpeg gas-giant
+  272  mv neptune.jpeg gas-giant
+  273  mv jupiter.jpeg gas-giant
+  274  ls -l
+  275  mv pluto.jpeg dwarf-planet
+  276  pwd
+  277  cd ~/telluric
+  278  cd telluric
+  279  cp earth.jpeg ../../inhabited
+  280  pwd
+  281  cd ..
+  282  cd ..
+  283  cd fictional
+  284  cp arrakis.jpeg ../../inhabited
+  285  cp coruscant.jpeg ../../inhabited
+  286  cp cybertron.jpeg ../../inhabited
+  287  cd ..
+  288  cd..
+  289  cd ..
+  290  cd planets
+  292  cd inhabited
+  293  ls -l
+  294  cd ..
+  295  rm inhabited 
+  296  pwd
+  297  cd fictional
+  298  cp arrakis.jpeg ../inhabited
+  299  cp coruscant.jpeg ../inhabited
+  300  cp cybertron.jpeg ../inhabited
+  301  cd ..
+  302  cd dwarf-planet
+  303  cd real
+  304  cd dwarf-planet
+  305  cd ..
+  306  r-rm dwarf-planet
+  307  rm -r dwarf-planet
+  308  find
+  309  tree
+  310  cd ../..
+  311  tree
+  312  history
+MacBook-Pro-de-Nadir:shell nadirabdelouahab$ 
